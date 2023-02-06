@@ -56,6 +56,7 @@ Neovim es un fork de Vim, el cual fue creado con el principal objetivo de que fu
 * Syntax highlighting
 * LSP
 * Cross-platform
+* Omnipresente
 
 
 ---
@@ -67,6 +68,7 @@ Neovim es editor de texto que puede incrementar tu productividad cuando programa
 
 <!-- stop -->
 
+
 ## Vim Text Objects
 
 
@@ -75,7 +77,98 @@ Estructura:
 
 ```<number><command><text object or motion>```
 
-Lorem ipsum dolor sit amet...
+
+Veamos unos ejemplos.
+
+
+<!-- stop -->
+
+
+## Tabs, Splits y Sessions
+
+
+### Tabs y Splits
+
+
+Los tabs y splits, nos da la habilidad de visualizar mantener nuestro código de una manera organizada y de agruparlos para poder movernos rapidamente entre ellos
+
+
+### Sessions
+
+
+Usualmente es molesto que cuando estamos trabajando en nuestro editor y lo cerramos, perdemos la forma en la que estabamos visualizando nuestro código. Aqui es donde las sesiones vienen en nuestra ayuda, estas crean un archivo en el que se guarda toda la informacion sobre la disposición de nuestros tabs y splits.
+
+
+<!-- stop -->
+
+
+## Plugins
+
+
+Algunos plugins que pueden ayudarnos a movernos de una manera más eficiente
+
+
+1. leap.nvim
+2. fzf
+3. nvim-surround
+
+---
+# Neovim puede hacer todo lo que hace tu editor
+
+
+Gracias a la gran comunidad que hay detras de Neovim es que existen una gran cantidad de plugins que implementan las funciones que tienen los editores de texto modernos como Visual Studio Code
+
+Un lugar donde puedes encontrar la mayoria de estos plugins es **Awesome Neovim**
+
+
+---
+# ¿Cómo dar los primeros pasos en Neovim?
+
+
+* vimtutor
+* https://vim-adventures.com/
+* Extensión de Visual Studio Code - Vim
+
+
+---
+|                                                    |
+|----------------------------------------------------|
+| ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ |
+| ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ |
+| ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ |
+| ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ |
+| ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ |
+| ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ |
+| ░░░░░░░░░░░░░░░▒▓▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ |
+| ░░░░░░░░░░░░░░░▒█▓▓▓▓▒░░░░░░░░░░░░░░░░░░▒▓██▒░░░░░ |
+| ░░░░░░░░░░░░░░░░▒▓▓▓▓▓▓▒░░░░░░░░░░░░░░▓█▓▓▓█░░░░░░ |
+| ░░░░░░░░░░░░░░░░░▓▓▒▓▓▓█▓▓████████▓▓▒▓▓▓▓▓▓▓░░░░░░ |
+| ░░░░░░░░░░░░░░░░░▒▒▓▓▓▓▓███████████▓▓▓▓▒▒▒▓▒░░░░░░ |
+| ░░░░░░░░░░░░░░░░░▒▓▓▓▓▓██▓▓▒▓▓███████▓▓▓▒▒▓░░░░░░░ |
+| ░░░░░░░░░░░░░░░░░▒▓▓▓▓▓▒░░░░░▒▓▓▓▓█▓▓▓▓▓▓▓▓▒░░░░░░ |
+| ░░░░░░░░░░░░░░░░▓▓▒▒▒▒▒░░░░░░░▒▒▓▓▓▓▓▓▓▓▓▓▓▓▒░░░░░ |
+| ░░░░░░░░░░░░░░░▓█▓███▓▒▒░░░░░░░▒▓▓▓▓▓▓▓▓▓▓▓▓▓▒░░░░ |
+| ░░░░░░░░░░░░░░░█▓▓▓███▓░░░░░░▒▓███████▓▓▓▓▓▓▓▓░░░░ |
+| ░░░░░░░░░░░░░░▓▓▓▓░░▒▒▒░░░░░░▒▓▓▓▓▒▒▒▓▓▓▓▓▓▓▓▓▒░░░ |
+| ░░░░░░░░░░░░░▒▓▒▒░░░░░░░░░░░░░░░░░░░░▒▒▒▒▓▓▓▓▒░░░░ |
+| ░░░░░░▒▒▒░░░░░▓▒▒▒▒░░░░░░░░░░░░░░▒▒▒▒░░░░░░░░░░░░░ |
+| ░░░▒▒▒▒▓▓▒░░░░░▒▒▒▒▒▒░▒▓▓▒░░░░░░▒▒▒▒▒▒░░░░▒▒░▒░░░░ |
+| ░░▒▒▒▒▓▓▒▒░░░░░░▒▒▒▒▒▒▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░▒▒▒░░░░ |
+| ░░▒▒▒▒▓▓▓▒▒▒░░░░░░▒▒▒▒▒▒▒▒▒▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░ |
+| ░░░░▒▒▒▒▒▒▒▒▒▒░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ |
+| ░░░░░░▒▒▒▒▒▒▒▒▒▒▒░▒▒▒▒▒▒▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▒▒▒▒▒▒ |
+| ░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ |
+
+
+|                                                               |
+|---------------------------------------------------------------|
+|   #####   #####      ##      ####    ######     ##      ####  |
+|  ##       ##  ##    ####    ##  ##     ##      ####    ##     |
+|  ##       ##  ##   ##  ##   ##         ##     ##  ##    ####  |
+|  ## ###   #####    ##  ##   ##         ##     ##  ##       ## |
+|  ##  ##   ## ##    ######   ##  ##     ##     ######       ## |
+|   #####   ##  ##   ##  ##    ####    ######   ##  ##    ####  |
+
 
 
 ---
